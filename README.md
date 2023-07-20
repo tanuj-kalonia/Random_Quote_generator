@@ -6,10 +6,12 @@ The website is live at https://tanuj-kalonia.github.io/Random_Quote_generator/.
 this lib provides many useful methods to fetch the data from the API.
 
 example :
-###     axios.get('API_LINK')
-###        .then((response)=>{
-###           console.log(response)
-###         }
-###        .catch((error) => {
-###           console.log(error)
-###         }
+```
+axios.get('API_LINK')
+.then((response)=>{
+     console.log(response)
+}
+.catch((error) => {
+     console.log(error)
+}
+```
